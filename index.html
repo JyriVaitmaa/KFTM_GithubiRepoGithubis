@@ -9,6 +9,34 @@
     <title>Konfliktoorium</title>
 
     <style>
+        .mikk-section {
+            margin: 20px;
+            padding: 20px;
+            border-radius: 12px;
+            background: linear-gradient(135deg, #1e3c72, #2a5298);
+            color: white;
+        }
+
+        .mikk-mingiasi {
+            font-size: 1.2rem;
+            font-style: italic;
+        }
+    </style>
+
+    <section class="mikk-section">
+        <p class="mikk-mingiasi">
+            "Ma lowkey tahaks koju magama minna rn"
+        </p>
+        <p>
+            zzzzzz
+        </p>
+
+        <a href="https://github.com/MikkKivisild/TarkvaraArendusprotsessTARpe24MikkKivisild" target="_blank">
+            Minu git
+        </a>
+    </section>
+
+    <style>
         /* ===== MINU CRAZY AINEMAPI BLOKK ===== */
         .saimon-wrapper {
             display: flex;
@@ -30,30 +58,29 @@
             transition: .3s;
         }
 
-        /* neon glow hover */
-        .saimon-card:hover {
-            transform: scale(1.03);
-            box-shadow:
-                0 0 20px #00f0ff,
-                0 0 40px #00f0ff,
-                0 0 60px #00f0ff;
-        }
+            /* neon glow hover */
+            .saimon-card:hover {
+                transform: scale(1.03);
+                box-shadow: 0 0 20px #00f0ff, 0 0 40px #00f0ff, 0 0 60px #00f0ff;
+            }
 
-        /* moving gradient overlay */
-        .saimon-card::before {
-            content: "";
-            position: absolute;
-            inset: 0;
-            background: linear-gradient(120deg,
-                    transparent,
-                    rgba(255, 255, 255, .25),
-                    transparent);
-            animation: saimonShine 4s linear infinite;
-        }
+            /* moving gradient overlay */
+            .saimon-card::before {
+                content: "";
+                position: absolute;
+                inset: 0;
+                background: linear-gradient(120deg, transparent, rgba(255, 255, 255, .25), transparent);
+                animation: saimonShine 4s linear infinite;
+            }
 
         @keyframes saimonShine {
-            0% { transform: translateX(-100%); }
-            100% { transform: translateX(100%); }
+            0% {
+                transform: translateX(-100%);
+            }
+
+            100% {
+                transform: translateX(100%);
+            }
         }
 
         .saimon-title {
@@ -79,10 +106,10 @@
             transition: .3s;
         }
 
-        .saimon-btn:hover {
-            letter-spacing: 1px;
-            transform: scale(1.08);
-        }
+            .saimon-btn:hover {
+                letter-spacing: 1px;
+                transform: scale(1.08);
+            }
 
         /* väike dünaamiline info */
         .saimon-dynamic {
@@ -106,10 +133,7 @@
         .savva-card {
             max-width: 600px;
             width: 100%;
-            background: linear-gradient(135deg,
-                    #ffffff 0%,
-                    #fff1f1 60%,
-                    #ffe5e5 100%);
+            background: linear-gradient(135deg, #ffffff 0%, #fff1f1 60%, #ffe5e5 100%);
             border-radius: 20px;
             padding: 35px;
             text-align: center;
@@ -117,9 +141,9 @@
             transition: transform 0.3s ease;
         }
 
-        .savva-card:hover {
-            transform: translateY(-6px);
-        }
+            .savva-card:hover {
+                transform: translateY(-6px);
+            }
 
         .savva-heading {
             color: #c40000;
@@ -148,10 +172,10 @@
             transition: all 0.3s ease;
         }
 
-        .savva-link:hover {
-            background: #a00000;
-            transform: scale(1.05);
-        }
+            .savva-link:hover {
+                background: #a00000;
+                transform: scale(1.05);
+            }
     </style>
     <link rel="stylesheet" href="kauricss.css">
     <style>
@@ -170,21 +194,21 @@
             transition: all 0.4s ease;
         }
 
-        .rasmus-wrapper:hover {
-            transform: translateY(-8px) scale(1.02);
-            box-shadow: 0 20px 50px rgba(29, 84, 109, 0.7);
-        }
+            .rasmus-wrapper:hover {
+                transform: translateY(-8px) scale(1.02);
+                box-shadow: 0 20px 50px rgba(29, 84, 109, 0.7);
+            }
 
-        .rasmus-wrapper::before {
-            content: "";
-            position: absolute;
-            top: -50px;
-            right: -50px;
-            width: 200px;
-            height: 200px;
-            background: radial-gradient(circle, rgba(243, 244, 244, 0.15), transparent 70%);
-            border-radius: 50%;
-        }
+            .rasmus-wrapper::before {
+                content: "";
+                position: absolute;
+                top: -50px;
+                right: -50px;
+                width: 200px;
+                height: 200px;
+                background: radial-gradient(circle, rgba(243, 244, 244, 0.15), transparent 70%);
+                border-radius: 50%;
+            }
 
         .rasmus-badge {
             display: inline-block;
@@ -209,20 +233,20 @@
             transition: color 0.3s ease;
         }
 
-        .rasmus-title a::after {
-            content: "";
-            position: absolute;
-            left: 0;
-            bottom: -5px;
-            width: 0%;
-            height: 2px;
-            background-color: #F3F4F4;
-            transition: width 0.3s ease;
-        }
+            .rasmus-title a::after {
+                content: "";
+                position: absolute;
+                left: 0;
+                bottom: -5px;
+                width: 0%;
+                height: 2px;
+                background-color: #F3F4F4;
+                transition: width 0.3s ease;
+            }
 
-        .rasmus-title a:hover::after {
-            width: 100%;
-        }
+            .rasmus-title a:hover::after {
+                width: 100%;
+            }
 
         .rasmus-description {
             margin-top: 18px;
@@ -254,10 +278,10 @@
             transition: transform 0.3s ease, box-shadow 0.3s ease;
         }
 
-        .siimAinemapp2026-container:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 20px 35px rgba(0, 0, 0, 0.5);
-        }
+            .siimAinemapp2026-container:hover {
+                transform: translateY(-5px);
+                box-shadow: 0 20px 35px rgba(0, 0, 0, 0.5);
+            }
 
         .siimAinemapp2026-title {
             font-size: 28px;
@@ -289,10 +313,10 @@
             transition: background 0.3s ease, transform 0.2s ease;
         }
 
-        .siimAinemapp2026-button:hover {
-            background-color: #92fe9d;
-            transform: scale(1.05);
-        }
+            .siimAinemapp2026-button:hover {
+                background-color: #92fe9d;
+                transform: scale(1.05);
+            }
 
         .siimAinemapp2026-dynamic {
             margin-top: 18px;
@@ -301,137 +325,138 @@
         }
     </style>
     <style>
-    /* 1. Define the movement */
-    @keyframes fall {
-      0% {
-        transform: translateY(-100vh) rotate(0deg); /* Start above screen */
-        opacity: 1;
-      }
-      100% {
-        transform: translateY(100vh) rotate(360deg); /* End below screen */
-        opacity: 0.3; /* Fade out as it hits the bottom */
-      }
-    }
-  
-    /* 2. Style the falling items */
-    .falling-item {
-      position: fixed;
-      top: -10%;
-      z-index: -1; /* Keeps them behind your text */
-      width: 50px; /* Size of the falling image */
-      user-select: none;
-      pointer-events: none;
-      animation: fall 5s linear infinite;
-    }
-  </style>
+        /* 1. Define the movement */
+        @keyframes fall {
+            0% {
+                transform: translateY(-100vh) rotate(0deg); /* Start above screen */
+                opacity: 1;
+            }
+
+            100% {
+                transform: translateY(100vh) rotate(360deg); /* End below screen */
+                opacity: 0.3; /* Fade out as it hits the bottom */
+            }
+        }
+
+        /* 2. Style the falling items */
+        .falling-item {
+            position: fixed;
+            top: -10%;
+            z-index: -1; /* Keeps them behind your text */
+            width: 50px; /* Size of the falling image */
+            user-select: none;
+            pointer-events: none;
+            animation: fall 5s linear infinite;
+        }
+    </style>
     <style>
-  /* Style for the 'Ad' window */
-  .popup-ad {
-    position: fixed;
-    width: 250px;
-    background: #ccc; /* Classic grey window color */
-    border: 2px solid #000;
-    box-shadow: 5px 5px 0px rgba(0,0,0,0.5);
-    z-index: 100;
-    padding: 5px;
-    font-family: 'Courier New', Courier, monospace;
-  }
+        /* Style for the 'Ad' window */
+        .popup-ad {
+            position: fixed;
+            width: 250px;
+            background: #ccc; /* Classic grey window color */
+            border: 2px solid #000;
+            box-shadow: 5px 5px 0px rgba(0,0,0,0.5);
+            z-index: 100;
+            padding: 5px;
+            font-family: 'Courier New', Courier, monospace;
+        }
 
-  /* Top bar of the 'Ad' */
-  .ad-header {
-    background: navy;
-    color: white;
-    padding: 2px 5px;
-    display: flex;
-    justify-content: space-between;
-    font-size: 12px;
-    cursor: move;
-  }
+        /* Top bar of the 'Ad' */
+        .ad-header {
+            background: navy;
+            color: white;
+            padding: 2px 5px;
+            display: flex;
+            justify-content: space-between;
+            font-size: 12px;
+            cursor: move;
+        }
 
-  .close-btn {
-    cursor: pointer;
-    background: #ccc;
-    color: black;
-    padding: 0 4px;
-    border: 1px solid black;
-  }
+        .close-btn {
+            cursor: pointer;
+            background: #ccc;
+            color: black;
+            padding: 0 4px;
+            border: 1px solid black;
+        }
 
-  .ad-content img {
-    width: 100%;
-    display: block;
-    margin-top: 5px;
-  }
-</style>
+        .ad-content img {
+            width: 100%;
+            display: block;
+            margin-top: 5px;
+        }
+    </style>
 
-<script>
-  function createPopup() {
-    // Create the main ad div
-    const ad = document.createElement('div');
-    ad.className = 'popup-ad';
-    
-    // Random position on screen
-    ad.style.top = Math.random() * 70 + 10 + "%";
-    ad.style.left = Math.random() * 70 + 10 + "%";
-
-    // Ad HTML structure
-    ad.innerHTML = `
-      <div class="ad-header">
-        <span>!!! ERIPAKKUMINE !!!</span>
-        <span class="close-btn" onclick="this.parentElement.parentElement.remove()">X</span>
-      </div>
-      <div class="ad-content">
-        <img src="kalapulk1.png">
-        <p style="text-align:center; font-weight:bold; margin: 5px 0;">OSTA KOHE!</p>
-      </div>
-    `;
-
-    document.body.appendChild(ad);
-  }
-
-  // Spawn a new ad every 3 seconds
-  setInterval(createPopup, 3000);
-  
-  // Create one immediately on load
-  window.onload = createPopup;
-</script>
     <script>
-  let score = 0;
+        function createPopup() {
+            // Create the main ad div
+            const ad = document.createElement('div');
+            ad.className = 'popup-ad';
 
-  function closeAd(element) {
-    // Increase score
-    score++;
-    document.getElementById('score-number').innerText = score;
-    
-    // Remove the ad window
-    element.parentElement.parentElement.remove();
-  }
+            // Random position on screen
+            ad.style.top = Math.random() * 70 + 10 + "%";
+            ad.style.left = Math.random() * 70 + 10 + "%";
 
-  function createPopup() {
-    const ad = document.createElement('div');
-    ad.className = 'popup-ad';
-    
-    // Random position
-    ad.style.top = Math.random() * 70 + 10 + "%";
-    ad.style.left = Math.random() * 70 + 10 + "%";
+            // Ad HTML structure
+            ad.innerHTML = `
+              <div class="ad-header">
+                <span>!!! ERIPAKKUMINE !!!</span>
+                <span class="close-btn" onclick="this.parentElement.parentElement.remove()">X</span>
+              </div>
+              <div class="ad-content">
+                <img src="kalapulk1.png">
+                <p style="text-align:center; font-weight:bold; margin: 5px 0;">OSTA KOHE!</p>
+              </div>
+            `;
 
-    ad.innerHTML = `
-      <div class="ad-header" style="background: navy; color: white; padding: 2px 5px; display: flex; justify-content: space-between;">
-        <span>!!! ERIPAKKUMINE !!!</span>
-        <span class="close-btn" onclick="closeAd(this)" style="cursor: pointer; background: #ccc; color: black; padding: 0 4px; border: 1px solid black;">X</span>
-      </div>
-      <div class="ad-content" style="padding: 5px; background: #ccc;">
-        <img src="kalapulk1.png" style="width: 100%;">
-        <p style="text-align:center; font-weight:bold; margin: 5px 0;">OSTA KOHE!</p>
-      </div>
-    `;
+            document.body.appendChild(ad);
+        }
 
-    document.body.appendChild(ad);
-  }
+        // Spawn a new ad every 3 seconds
+        setInterval(createPopup, 3000);
 
-  // Spawn every 3 seconds
-  setInterval(createPopup, 3000);
-  window.onload = createPopup;
-</script>
+        // Create one immediately on load
+        window.onload = createPopup;
+    </script>
+    <script>
+        let score = 0;
+
+        function closeAd(element) {
+            // Increase score
+            score++;
+            document.getElementById('score-number').innerText = score;
+
+            // Remove the ad window
+            element.parentElement.parentElement.remove();
+        }
+
+        function createPopup() {
+            const ad = document.createElement('div');
+            ad.className = 'popup-ad';
+
+            // Random position
+            ad.style.top = Math.random() * 70 + 10 + "%";
+            ad.style.left = Math.random() * 70 + 10 + "%";
+
+            ad.innerHTML = `
+              <div class="ad-header" style="background: navy; color: white; padding: 2px 5px; display: flex; justify-content: space-between;">
+                <span>!!! ERIPAKKUMINE !!!</span>
+                <span class="close-btn" onclick="closeAd(this)" style="cursor: pointer; background: #ccc; color: black; padding: 0 4px; border: 1px solid black;">X</span>
+              </div>
+              <div class="ad-content" style="padding: 5px; background: #ccc;">
+                <img src="kalapulk1.png" style="width: 100%;">
+                <p style="text-align:center; font-weight:bold; margin: 5px 0;">OSTA KOHE!</p>
+              </div>
+            `;
+
+            document.body.appendChild(ad);
+        }
+
+        // Spawn every 3 seconds
+        setInterval(createPopup, 3000);
+        window.onload = createPopup;
+    </script>
     <link rel="stylesheet" href="./ervinstyle.css">
 </head>
     <img src="kalapulk1.png" class="falling-item" style="left: 10%; animation-delay: 0s;">
